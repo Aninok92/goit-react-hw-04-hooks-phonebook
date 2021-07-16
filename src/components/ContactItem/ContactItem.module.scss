@@ -3,6 +3,7 @@
 .wrapper {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .contact {
@@ -10,4 +11,5 @@
   font-weight: 400;
   color: var(--secondary-text-color);
   margin-right: 15px;
+  margin-left: 10px;
 }
