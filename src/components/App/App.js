@@ -20,7 +20,6 @@ function App() {
   );
 
   useEffect(() => {
-    console.log("contacts useeffect");
     window.localStorage.setItem("contacts", JSON.stringify(contacts));
   }, [contacts]);
 
@@ -32,7 +31,6 @@ function App() {
     };
 
     setContacts([newContact, ...contacts]);
-    console.log(newContact, ...contacts);
   };
 
   const changeFilter = (e) => {
